@@ -3,3 +3,34 @@ header {
     color: var(--color-font-secondary);
     height: 70px;
 }
+
+.header-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    display: flex;
+    width: 256px;
+    margin-top: 26px;
+    margin-left: 160px;
+  }
+  
+.menu-item {
+    margin-left: 20px;
+    color: var(--color-font-secondary);
+    font-weight: 400;
+  }
+  
+  .menu-active {
+    font-weight: 700;
+  }
+
+  h1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 160px;
+    margin-top: 20px;
+  }
+  

@@ -5,20 +5,20 @@ export default function Header(){
     return(
         <header>
             <div className="header-content-container container">
-                <Link to="/">
-                    <h1 className="site-name">MeuSite</h1>
-                </Link>
                 <nav className="navbar">
                     <NavLink to="/" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
                         Início
                     </NavLink>
-                    <NavLink to="/promotion" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
-                        Promoção
+                    <NavLink to="/produtos" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
+                        Produtos
                     </NavLink>
-                    <NavLink to="/sub" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
-                        Participar
+                    <NavLink to="/sobre" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
+                        Sobre nós
                     </NavLink>
                 </nav>
+                <Link to="/">
+                    <h1>D</h1>
+                </Link>
             </div>
         </header>
     )
