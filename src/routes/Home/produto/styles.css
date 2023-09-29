@@ -1,0 +1,13 @@
+.inicio-container {
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.inicio-texto {
+    color:var(--color-font-primary);
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    width: 300px;
+}
