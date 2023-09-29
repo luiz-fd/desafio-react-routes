@@ -15,7 +15,7 @@ export default function Produto() {
             Computadores
           </NavLink>
           <NavLink
-            to="/eletronicos"
+            to="/produtos/eletronicos"
             className={({ isActive }) =>
               isActive ? "produtos-menu-item menu-active" : "produtos-menu-item"
             }
@@ -23,7 +23,7 @@ export default function Produto() {
             Eletrônicos
           </NavLink>
           <NavLink
-            to="/livros"
+            to="/produtos/livros"
             className={({ isActive }) =>
               isActive ? "produtos-menu-item menu-active" : "produtos-menu-item"
             }

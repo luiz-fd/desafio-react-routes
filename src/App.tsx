@@ -5,6 +5,7 @@ import Produtos from "./routes/Home/produto";
 import Sobre from "./routes/Home/sobre";
 import NotFoud from "./routes/Home/NotFound";
 import Computadores from "./routes/Home/produto/computadores";
+import Eletronicos from "./routes/Home/produto/eletronicos";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/produtos" element={<Produtos />}>
             <Route path="computadores" element={<Computadores/>} />
+            <Route path="eletronicos" element={<Eletronicos/>} />
           </Route>
           <Route path="/sobre" element={<Sobre />} />
           <Route path="*" element={<NotFoud></NotFoud>} />
