@@ -1,9 +1,12 @@
+import { Outlet } from "react-router-dom";
 import "./styles.css";
+import Produto from "../../../components/Produto";
 
 export default function Produtos() {
   return (
-    <div className="inicio-container">
-      <h1 className="inicio-texto">Add NavBar!</h1>
-    </div>
+    <>
+    <Produto />
+    <Outlet></Outlet>
+    </>
   );
 }
