@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom";
 import "./styles.css";
-import Produto from "../../../components/Produto";
+import Product from "../../../components/Product"
 
-export default function Produtos() {
+export default function Products() {
   return (
     <>
-    <Produto />
+    <Product />
     <Outlet></Outlet>
     </>
   );

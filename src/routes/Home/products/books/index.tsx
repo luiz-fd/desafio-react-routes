@@ -1,6 +1,6 @@
 import './styles.css'
 
-export default function Livros(){
+export default function Books(){
     return(
         <div className='prod-content-container'>
         <h3>Livro 1</h3>

@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
 import './styles.css'
 
-export default function Produto() {
+export default function Product() {
   return (
     <>
       <div className="produtos-container">
         <nav className="produtos-navbar">
           <NavLink
-            to="/produtos/computadores"
+            to="/products/computers"
             className={({ isActive }) =>
               isActive ? "produtos-menu-item menu-active" : "produtos-menu-item"
             }
@@ -15,7 +15,7 @@ export default function Produto() {
             Computadores
           </NavLink>
           <NavLink
-            to="/produtos/eletronicos"
+            to="/products/electronics"
             className={({ isActive }) =>
               isActive ? "produtos-menu-item menu-active" : "produtos-menu-item"
             }
@@ -23,7 +23,7 @@ export default function Produto() {
             Eletrônicos
           </NavLink>
           <NavLink
-            to="/produtos/livros"
+            to="/products/books"
             className={({ isActive }) =>
               isActive ? "produtos-menu-item menu-active" : "produtos-menu-item"
             }
