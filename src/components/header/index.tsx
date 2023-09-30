@@ -1,25 +1,43 @@
-import { Link, NavLink } from 'react-router-dom'
-import './styles.css'
+import { Link, NavLink } from "react-router-dom";
+import "./styles.css";
+import HomeIMG from "../../images/Vector.png";
 
-export default function Header(){
-    return(
-        <header>
-            <div className="header-content-container container">
-                <nav className="navbar">
-                    <NavLink to="/" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
-                        Início
-                    </NavLink>
-                    <NavLink to="/produtos" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
-                        Produtos
-                    </NavLink>
-                    <NavLink to="/sobre" className={({isActive}) => isActive ? "menu-item menu-active" : "menu-item" } >
-                        Sobre nós
-                    </NavLink>
-                </nav>
-                <Link to="/">
-                    <h1>D</h1>
-                </Link>
-            </div>
-        </header>
-    )
+export default function Header() {
+  return (
+    <header>
+      <div className="header-content-container container">
+        <nav className="header-navbar">
+          <NavLink
+            to="/inicio"
+            className={({ isActive }) =>
+              isActive ? "header-menu-item header-menu-active" : "header-menu-item"
+            }
+          >
+            Início
+          </NavLink>
+          <NavLink
+            to="/produtos"
+            className={({ isActive }) =>
+              isActive ? "header-menu-item header-menu-active header-menu-item-left" : "header-menu-item header-menu-item-left"
+            }
+          >
+            Produtos
+          </NavLink>
+          <NavLink
+            to="/sobre"
+            className={({ isActive }) =>
+              isActive ? "header-menu-item header-menu-active header-menu-item-left" : "header-menu-item header-menu-item-left"
+            }
+          >
+            Sobre nós
+          </NavLink>
+        </nav>
+        <div className="header-home-icon">
+          <Link to="/">
+            <img src={HomeIMG} />
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
 }
