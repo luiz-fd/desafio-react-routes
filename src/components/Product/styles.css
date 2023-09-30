@@ -16,6 +16,12 @@
   margin-left: 20px;
   color: var(--color-font-primary);
   }
+
+  .produtos-menu-item:hover {
+    margin-top: 120px;
+    margin-left: 20px;
+    color: var(--color-font-primary);
+    }
   
   .menu-active {
     font-weight: 700;
