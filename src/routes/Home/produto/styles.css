@@ -1,0 +1,11 @@
+.prod-content-container {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.prod-content-container h3 {
+    font-size: 16px;
+    line-height: 19.36px;
+}

@@ -4,13 +4,17 @@
 }
 
 .produtos-navbar {
-    color: #000000;
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-bg-primary);
+  width: 960px;
+  height: 60px;
+  padding-top: 20px;
 }
 
 .produtos-menu-item {
-    margin-left: 20px;
-    color: var(--color-font-primary);
-    font-weight: 400;
+  margin-top: 120px;
+  margin-left: 20px;
+  color: var(--color-font-primary);
   }
   
   .menu-active {
